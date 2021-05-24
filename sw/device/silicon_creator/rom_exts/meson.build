@@ -55,7 +55,6 @@ foreach slot, slot_link_args : rom_ext_link_info
       link_args: slot_link_args[0],
       dependencies: [
         freestanding_headers,
-        sw_lib_crt,
         sw_lib_dif_uart,
         sw_lib_runtime_hart,
         sw_lib_runtime_print,

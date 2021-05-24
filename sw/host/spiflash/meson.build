@@ -11,10 +11,6 @@ spiflash_bin = executable(
     'verilator_spi_interface.cc',
   ],
   implicit_include_directories: false,
-  dependencies: [
-    dependency('libcrypto', native: true),
-    libmpsse
-  ],
   native: true,
 )
 

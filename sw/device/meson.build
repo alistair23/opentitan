@@ -59,12 +59,6 @@ make_otp_img_depend_files = [
   meson.source_root() / 'util/design/gen-otp-img.py',
 ]
 
-subdir('boot_rom')
 subdir('otp_img')
 subdir('silicon_creator')
-subdir('examples')
 subdir('sca')
-subdir('tests')
-subdir('benchmarks')
-subdir('tock')
-subdir('riscv_compliance_support')

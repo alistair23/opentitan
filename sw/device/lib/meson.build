@@ -4,10 +4,8 @@
 
 subdir('base')
 subdir('arch')
-subdir('crt')
 subdir('dif')
 subdir('runtime')
-subdir('testing')
 
 # Flash controller library (sw_lib_flash_ctrl)
 sw_lib_flash_ctrl = declare_dependency(

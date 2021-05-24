@@ -24,7 +24,6 @@ mask_rom_lib = declare_dependency(
     dependencies: [
       freestanding_headers,
       rom_ext_manifest_parser,
-      sw_lib_crt,
       sw_lib_pinmux,
     ],
     link_with: static_library(

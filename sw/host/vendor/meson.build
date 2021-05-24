@@ -18,10 +18,6 @@ libmpsse = declare_dependency(
       # is resolved.
       '-Wno-error=deprecated-declarations',
     ],
-    dependencies: [
-      dependency('libftdi1', native: true),
-      dependency('libusb-1.0', native: true),
-    ],
     native: true,
   ),
 )

@@ -41,7 +41,6 @@ riscv_crt = declare_dependency(
   ],
   dependencies: [
     freestanding_headers,
-    sw_lib_crt,
     sw_lib_mem,
     sw_lib_irq,
     top_earlgrey,
